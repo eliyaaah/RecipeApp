@@ -8,6 +8,7 @@ import { RecipesPageRoutingModule } from './recipes-routing.module';
 
 import { RecipesPage } from './recipes.page';
 import { RouterModule } from '@angular/router';
+import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,6 @@ import { RouterModule } from '@angular/router';
     RecipesPageRoutingModule,
     RouterModule
   ],
-  declarations: [RecipesPage]
+  declarations: [RecipesPage, RecipeItemComponent]
 })
 export class RecipesPageModule {}
